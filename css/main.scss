@@ -8,6 +8,17 @@
        @return map-get($colors, $color-name)
    }
    
+    .button {
+        background-color: grey;
+        padding : 5px;
+        padding-left: 4px;
+        padding-right: 4px;
+        color: white;
+        text-decoration: none;
+        
+    }
+   
+
 
    body {
 
@@ -22,4 +33,16 @@
         z-index : -1;
 
        }
+
+    }
+    .button-next {
+        @extend .button;
+        color : yellow;
+
+   }
+
+   .button-selanjutnya {
+       @extend .button;
+       color: orange;
+       background-color: red;  
    }

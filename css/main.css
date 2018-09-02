@@ -1,3 +1,12 @@
+.button, .button-next, .button-selanjutnya {
+  background-color: grey;
+  padding: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
 }
@@ -10,5 +19,14 @@ body #bg {
   height: 100%;
   position: absolute;
   z-index: -1;
+}
+
+.button-next {
+  color: yellow;
+}
+
+.button-selanjutnya {
+  color: orange;
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
